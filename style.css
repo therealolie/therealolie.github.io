@@ -1,0 +1,39 @@
+body {
+  background-color: #FCCADA;
+}
+
+h1 {
+  color: #E55E8B;
+}
+
+a {
+  color: #E55E8B;
+  text-decoration-line: none;
+}
+
+header {
+  background-color: #F9B6CC;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  background-color: #F7C0D3;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background-color: #F9B6CC;
+  position: absolute;
+  left: 0px;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
