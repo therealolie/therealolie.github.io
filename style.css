@@ -1,14 +1,16 @@
-#root{
+#root
+{
 	background: #5BCEFA;
 	position:absolute;
 	display:flex;
 	flex-direction:column;
 	margin:5px;
-	height:-webkit-fill-available;
-	width:-webkit-fill-available;
+	height:calc(100% - 10px);
+	width:calc(100% - 10px);
 	gap:5px;
 }
-#main{
+#main
+{
 	display:flex;
 	background: #FCCADA;
 	padding:10px;
@@ -18,13 +20,15 @@
 	gap:5px;
 	margin:0 auto;
 }
-html,body{
+html,body
+{
 	background: #5BCEFA;
 	margin:0;
 	width:100%;
 	height:100%;
 }
-.elements{
+.elements
+{
 	width:fit-content;
 	margin:0 auto;
 	gap:20px;
@@ -32,35 +36,40 @@ html,body{
 	flex-direction:column;
 	flex-wrap:wrap;
 }
-.elements:nth-child(1){
+.elements{
 	flex:1 1 auto;
 	width: -webkit-fill-available;
+	width: -moz-available;
 }
 .elements:nth-child(2){
-	flex:1 1 auto;
 	max-width: 200px;
-	width: -webkit-fill-available;
 }
-.elements>*{
+.elements>*
+{
 	margin:0;
 	background: #FFFFFF;
 }
-#flag-trans{
+#flag-trans
+{
 	height:100px;
 	background:linear-gradient(#5bcefa 20%, #f5a9b8 20%, 40%, #ffffff 40%, 60%, #f5a9b8 60%, 80%, #5bcefa 80%);
 }
-#flag-pl{
+#flag-pl
+{
 	height:100px;
 	background:linear-gradient(#FFFFFF 50%,#D22630 50%);
 }
-#flag-lesb{
+#flag-lesb
+{
 	height:100px;
 	background:linear-gradient(#D52D00 calc(100% / 7), #EF7627 calc(100% / 7), calc(100% / 7 * 2), #FF9A56 calc(100% / 7 * 2), calc(100% / 7 * 3), #FFFFFF calc(100% / 7 * 3),calc(100% / 7 * 4), #D162A4 calc(100% / 7 * 4),calc(100% / 7 * 5), #B55690 calc(100% / 7 * 5),calc(100% / 7 * 6), #A30262 calc(100% / 7 * 6)); 
 }
-footer {
+footer
+{
 	background-color: #F9B6CC;
 	text-align: center;
 }
-.accounts td{
+.accounts td
+{
 	background: #feecf1;
 }
